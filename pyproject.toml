@@ -28,8 +28,8 @@ classifiers = [
 "Homepage" = "https://github.com/varghesereji/OPlanner"
 "Repository" = "https://github.com/varghesereji/OPlanner"
 
-# [project.scripts]
-# toirex = "toirex.toirex_main:main"
+[project.scripts]
+planner = "oplanner.oplanner_main:main"
 
 # [tool.setuptools.package-data]
 # "toirex" = ["data/*", "config/*"]
